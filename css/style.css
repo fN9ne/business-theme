@@ -1783,9 +1783,21 @@ h6 {
   }
 }
 
+@media (max-width: 425px) {
+  .services__title {
+    margin: 0 0 20px 0;
+  }
+}
+
 @media (max-width: 400px) {
   .footer__burger-button i {
     right: -45%;
+  }
+}
+
+@media (max-width: 375px) {
+  .services {
+    height: 1350px;
   }
 }
 
